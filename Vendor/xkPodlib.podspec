@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/xiaoke2015/xkPrivatePodLib.git"
   spec.license      = "MIT"
-  spec.author             = { "li.jiajian" => "li.jiajian@qianka.com" }
+  spec.author             = { "lijiajian" => "779454060@qq.com" }
   spec.source       = { :git => "https://github.com/xiaoke2015/xkPrivatePodLib.git", :tag => "#{spec.version}" }
 
 
