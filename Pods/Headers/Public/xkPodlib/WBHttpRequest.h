@@ -1,0 +1,1 @@
+../../../../Vendor/WeiboSDK_iOS/WBHttpRequest.h

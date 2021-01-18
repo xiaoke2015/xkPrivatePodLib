@@ -1,0 +1,24 @@
+PODS:
+  - xkPodlib (0.0.2):
+    - xkPodlib/xkAlipaySDK (= 0.0.2)
+    - xkPodlib/xkTencentSDK (= 0.0.2)
+    - xkPodlib/xkWeiboSDK (= 0.0.2)
+    - xkPodlib/xkWeiXinSDK (= 0.0.2)
+  - xkPodlib/xkAlipaySDK (0.0.2)
+  - xkPodlib/xkTencentSDK (0.0.2)
+  - xkPodlib/xkWeiboSDK (0.0.2)
+  - xkPodlib/xkWeiXinSDK (0.0.2)
+
+DEPENDENCIES:
+  - xkPodlib (from `./Vendor`)
+
+EXTERNAL SOURCES:
+  xkPodlib:
+    :path: "./Vendor"
+
+SPEC CHECKSUMS:
+  xkPodlib: a6b81e1ea37f2787728b96a3c369cc5f42fecab5
+
+PODFILE CHECKSUM: d042e25c953f403100affe60f94b3ac22eccabee
+
+COCOAPODS: 1.10.0

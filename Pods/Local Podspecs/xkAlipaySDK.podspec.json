@@ -1,0 +1,36 @@
+{
+  "name": "xkAlipaySDK",
+  "version": "0.0.1",
+  "summary": "AlipaySDK",
+  "description": "集成 AlipaySDK\n版本15.7.9",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "homepage": "https://opendocs.alipay.com/open/204/105295",
+  "license": "MIT",
+  "authors": {
+    "li.jiajian": "li.jiajian@qianka.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaoke2015/xkPrivatePodLib.git",
+    "tag": "0.0.1"
+  },
+  "resources": "AlipaySDK/*.bundle",
+  "vendored_frameworks": "AlipaySDK/*.framework",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "CoreText",
+    "QuartzCore",
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "WebKit"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z",
+    "stdc++"
+  ]
+}

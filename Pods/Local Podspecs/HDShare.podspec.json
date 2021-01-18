@@ -1,0 +1,40 @@
+{
+  "name": "HDShare",
+  "version": "0.0.1",
+  "summary": "第三方分享 微信 QQ",
+  "homepage": "https://github.com/xiaoke2015",
+  "license": "MIT",
+  "authors": {
+    "ljiajian": "779454060@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/HDShare.git",
+    "tag": "0.0.1"
+  },
+  "resources": "HDShare/*.bundle",
+  "source_files": "HDShare/*.{h,m}",
+  "vendored_libraries": "HDShare/*.a",
+  "vendored_frameworks": "HDShare/*.framework",
+  "frameworks": [
+    "Security",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "Photos",
+    "ImageIO",
+    "CoreText",
+    "QuartzCore",
+    "Security",
+    "UIKit",
+    "Foundation",
+    "WebKit"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z",
+    "stdc++"
+  ]
+}

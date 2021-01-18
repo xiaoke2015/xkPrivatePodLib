@@ -1,0 +1,98 @@
+{
+  "name": "xkPodlib",
+  "version": "0.0.2",
+  "summary": "本地依赖库",
+  "platforms": {
+    "ios": null
+  },
+  "description": "本地依赖库 微信，支付宝，QQ，微博\n\n AlipaySDK:15.7.9\n WeiboSDK:003233000\n WXApi:1.8.7",
+  "homepage": "https://github.com/xiaoke2015/xkPrivatePodLib.git",
+  "license": "MIT",
+  "authors": {
+    "li.jiajian": "li.jiajian@qianka.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaoke2015/xkPrivatePodLib.git",
+    "tag": "0.0.2"
+  },
+  "subspecs": [
+    {
+      "name": "xkAlipaySDK",
+      "resources": "AlipaySDK_iOS/*.bundle",
+      "vendored_frameworks": "AlipaySDK_iOS/*.framework",
+      "frameworks": [
+        "SystemConfiguration",
+        "CoreGraphics",
+        "CoreTelephony",
+        "CoreText",
+        "QuartzCore",
+        "UIKit",
+        "Foundation",
+        "CFNetwork",
+        "WebKit"
+      ],
+      "libraries": [
+        "sqlite3",
+        "z",
+        "stdc++"
+      ]
+    },
+    {
+      "name": "xkWeiXinSDK",
+      "source_files": "WechatOpenSDK/*.{h,m}",
+      "vendored_libraries": "WechatOpenSDK/*.a",
+      "frameworks": [
+        "Security",
+        "CoreGraphics",
+        "WebKit"
+      ],
+      "libraries": [
+        "sqlite3",
+        "z",
+        "stdc++"
+      ]
+    },
+    {
+      "name": "xkTencentSDK",
+      "resources": "TencentOpenApi/*.bundle",
+      "vendored_frameworks": "TencentOpenApi/*.framework",
+      "frameworks": [
+        "Security",
+        "SystemConfiguration",
+        "CoreGraphics",
+        "CoreTelephony",
+        "WebKit"
+      ],
+      "libraries": [
+        "sqlite3",
+        "z",
+        "stdc++",
+        "iconv"
+      ]
+    },
+    {
+      "name": "xkWeiboSDK",
+      "source_files": "WeiboSDK_iOS/*.{h,m}",
+      "vendored_libraries": "WeiboSDK_iOS/*.a",
+      "frameworks": [
+        "Security",
+        "SystemConfiguration",
+        "CoreGraphics",
+        "CoreTelephony",
+        "Photos",
+        "ImageIO",
+        "CoreText",
+        "QuartzCore",
+        "Security",
+        "UIKit",
+        "Foundation",
+        "WebKit"
+      ],
+      "libraries": [
+        "sqlite3",
+        "z",
+        "stdc++"
+      ]
+    }
+  ]
+}

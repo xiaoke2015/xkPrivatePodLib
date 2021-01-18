@@ -1,0 +1,31 @@
+{
+  "name": "xkWeiXinSDK",
+  "version": "0.0.1",
+  "summary": "openSDK1.8.6",
+  "description": "本地集成微信openSDK1.8.6",
+  "homepage": "https://developers.weixin.qq.com",
+  "license": "MIT",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "authors": {
+    "li.jiajian": "li.jiajian@qianka.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaoke2015/xkPrivatePodLib.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "WechatOpenSDK/*.{h,m}",
+  "exclude_files": "Classes/Exclude",
+  "vendored_libraries": "WechatOpenSDK/*.a",
+  "frameworks": [
+    "Security",
+    "CoreGraphics",
+    "WebKit"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z",
+    "stdc++"
+  ]
+}
